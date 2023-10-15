@@ -128,7 +128,7 @@ export default function NavBar() {
                     className="peer hidden"
                     type="checkbox"
                     id="menu-1"
-                    checked
+                    defaultChecked
                   />
                   <button className="flex peer relative w-full items-center border-l-rose-600 py-3 px-4 text-sm font-medium text-gray-600 outline-none transition-all duration-100 ease-in-out hover:border-l-4 hover:text-rose-600 focus:border-l-4">
                     <span className="flex mr-5 w-5">

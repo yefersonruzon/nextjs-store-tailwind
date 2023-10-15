@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         <link rel="shortcut icon" sizes="32x32" href="$/logo.svg" type="image/x-icon" />
       </head>
       <body className={`${poppins.className} relative`}>
-          <NavBar />
+          {/* <NavBar /> */}
           {children}
         </body>
     </html>
