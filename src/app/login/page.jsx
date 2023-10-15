@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./Logo.png"
+import Logo from "./Logo.png";
 
 export default function page() {
   return (
@@ -12,7 +12,9 @@ export default function page() {
           <form action="#" className="mt-28 flex flex-col justify-center px-10">
             <h2 className=" text-xl">Login</h2>
             <div className="my-8">
-              <label htmlFor="email"  className="text-gray-300 text-base">email</label>
+              <label htmlFor="email" className="text-gray-300 text-base">
+                email
+              </label>
               <input
                 type="text"
                 placeholder="email@ejemplo.com"
@@ -21,7 +23,9 @@ export default function page() {
               />
             </div>
             <div>
-              <label htmlFor="password" className="text-gray-300 text-base">Contraseña</label>
+              <label htmlFor="password" className="text-gray-300 text-base">
+                Contraseña
+              </label>
               <input
                 type="text"
                 placeholder="min 6 caracteres"
@@ -31,17 +35,26 @@ export default function page() {
             </div>
             <div className="flex w-full justify-between mt-5">
               <div className="flex items-center">
-                <input type="checkbox" name="" id="" class="accent-primary" defaultChecked />
+                <input
+                  type="checkbox"
+                  name=""
+                  id=""
+                  class="accent-primary"
+                  defaultChecked
+                />
                 <p className="text-xs ml-2">Mantener sesión</p>
               </div>
-              <a href="#" className="text-xs text-primary">Forgot password?</a>
+              <a href="#" className="text-xs text-primary">
+                Forgot password?
+              </a>
             </div>
-            <button className="w-full bg-primary text-black py-3 mt-14 text-sm rounded-md">Sign in</button>
+            <button className="w-full bg-primary text-black py-3 mt-14 text-sm rounded-md">
+              Sign in
+            </button>
           </form>
         </div>
-    </div>
-    <span className="pointer-events-none fixed top-0 w-full h-screen after:absolute   after:top-[-12%] after:w-full after:h-4/5 after:bg-radial-gradient-green before:absolute before:bottom-[-12%] before:w-full before:h-4/5 before:bg-radial-gradient-purple"></span>
-
+      </div>
+      <span className="pointer-events-none fixed top-0 w-full h-screen after:absolute   after:top-[-12%] after:w-full after:h-4/5 after:bg-radial-gradient-green before:absolute before:bottom-[-12%] before:w-full before:h-4/5 before:bg-radial-gradient-purple"></span>
     </main>
   );
 }
